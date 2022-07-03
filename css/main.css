@@ -263,9 +263,7 @@ ul {
   transition-duration: var(--trans-duration);
   transition-timing-function: var(--trans-timing);
 }
-
-.button-hero:focus,
-.button-hero:hover {
+.button-hero:focus, .button-hero:hover {
   background-color: var(--hero-btn-bcg-color-action);
 }
 

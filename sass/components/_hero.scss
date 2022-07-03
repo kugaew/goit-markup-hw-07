@@ -7,9 +7,7 @@
     height: 600px;
     max-width: 1600px;
 
-    background-image:
-        linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('../images/hero_background.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero_background.jpg');
     background-color: var(--hero-background-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -46,12 +44,10 @@
     line-height: 30px;
     font-weight: 700;
 
-    transition-property: background-color;
-    transition-duration: var(--trans-duration);
-    transition-timing-function: var(--trans-timing);
-}
+    @include animated(background-color);
 
-.button-hero:focus,
-.button-hero:hover {
-    background-color: var(--hero-btn-bcg-color-action);
+    &:focus,
+    &:hover {
+        background-color: var(--hero-btn-bcg-color-action);
+    }
 }

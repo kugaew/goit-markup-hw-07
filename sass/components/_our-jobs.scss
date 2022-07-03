@@ -1,0 +1,41 @@
+.section-our-jobs {
+    padding-top: 0;
+}
+
+.our-jobs-list {
+    display: flex;
+}
+
+.our-jobs-img {
+    display: block;
+}
+
+.our-jobs-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-jobs-list-item {
+    position: relative;
+}
+
+.our-jobs-list-text {
+    position: absolute;
+    bottom: 0;
+
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}

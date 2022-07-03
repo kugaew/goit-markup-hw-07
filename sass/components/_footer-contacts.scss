@@ -1,0 +1,36 @@
+.footer-contacts-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-container-contacts {
+    margin-right: 70px;
+}
+
+.footer-contacts-adress-link,
+.footer-contacts-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts-link {
+    color: var(--footer-mailphone-text-color);
+
+    transition-property: color;
+    transition-duration: var(--trans-duration);
+    transition-timing-function: var(--trans-timing);
+}
+
+.footer-contacts-adress-link {
+    color: var(--hero-title-color);
+
+    transition-property: color;
+    transition-duration: var(--trans-duration);
+    transition-timing-function: var(--trans-timing);
+}
+
+.footer-contacts-link:focus,
+.footer-contacts-link:hover {
+    color: var(--action-color);
+}

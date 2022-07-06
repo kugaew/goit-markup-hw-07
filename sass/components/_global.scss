@@ -39,7 +39,7 @@ ul {
     padding-bottom: 94px;
 }
 
-.section-title {
+.section__title {
     margin-bottom: 50px;
 
     color: var(--title-text-color);
@@ -51,7 +51,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.section-title-unvisible {
+.section__title--unvisible {
     position: absolute;
     width: 1px;
     height: 1px;

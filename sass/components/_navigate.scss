@@ -1,9 +1,9 @@
-.nav {
+.navigate {
     display: flex;
     align-items: center;
 }
 
-.nav__list {
+.navigate__list {
     display: flex;
 
     letter-spacing: 0.02em;
@@ -12,7 +12,7 @@
     line-height: 1.14;
 }
 
-.nav__item {
+.navigate__item {
     position: relative;
 
     &:not(:last-child) {
@@ -20,7 +20,7 @@
     }
 }
 
-.nav__link {
+.navigate__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -37,7 +37,7 @@
 
 
 
-.nav__link--current {
+.navigate__link--current {
     color: var(--action-color);
 
     &::after {

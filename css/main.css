@@ -18,6 +18,7 @@
   --hero-background-color: #C4C4C4;
   --footer-background-color: #2F303A;
   --header-border-bottom-color: #ECECEC;
+  --feature-list-icon-background-color: #F5F4FA;
   --team-social-icon-color-passed: #AFB1B8;
   --team-social-icon-color-aktived: #FFFFFF;
   --team-social-icon-backgroundcolor-actived: #2196f3;
@@ -538,29 +539,30 @@ ul {
   padding-top: 0;
 }
 
-.our-jobs-list {
+.our-jobs {
   display: flex;
 }
 
-.our-jobs-img {
+.our-jobs__img {
   display: block;
 }
 
-.our-jobs-list-item:not(:last-child) {
+.our-jobs__item {
+  position: relative;
   margin-right: 30px;
 }
-
-.our-jobs-list-item {
-  position: relative;
+.our-jobs__item:last-child {
+  margin-right: 0;
 }
 
-.our-jobs-list-text {
+.our-jobs__text {
   position: absolute;
   bottom: 0;
   width: 370px;
   padding-top: 27px;
   padding-bottom: 27px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
+  color: #FFFFFF;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -569,7 +571,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .team-list {

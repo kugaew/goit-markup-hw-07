@@ -1,20 +1,21 @@
-.client-list {
+.client {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.client-list-item {
+.client__item {
     width: 170px;
     height: 92px;
     border-radius: 4px;
-}
-
-.client-list-item:not(:last-child) {
     margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
-.client-link {
+.client__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,17 +26,15 @@
 
     color: var(--client-icon-color-passed);
 
-    transition-property: color, border-color;
-    transition-duration: var(--trans-duration);
-    transition-timing-function: var(--trans-timing);
+    @include animated(border-color, color);
+
+    &:hover,
+    &:focus {
+        border-color: var(--client-border-color-actived);
+        color: var(--client-icon-color-actived)
+    }
 }
 
-.client-icon {
+.client__icon {
     fill: currentColor;
-}
-
-.client-link:hover,
-.client-link:focus {
-    border-color: var(--client-border-color-actived);
-    color: var(--client-icon-color-actived)
 }

@@ -646,23 +646,23 @@ ul {
   color: var(--team-social-icon-color-aktived);
 }
 
-.client-list {
+.client {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.client-list-item {
+.client__item {
   width: 170px;
   height: 92px;
   border-radius: 4px;
-}
-
-.client-list-item:not(:last-child) {
   margin-right: 30px;
 }
+.client__item:last-child {
+  margin-right: 0;
+}
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -671,19 +671,17 @@ ul {
   border: 1px solid;
   border-color: var(--client-border-color-passed);
   color: var(--client-icon-color-passed);
-  transition-property: color, border-color;
+  transition-property: border-color, color;
   transition-duration: var(--trans-duration);
   transition-timing-function: var(--trans-timing);
 }
-
-.client-icon {
-  fill: currentColor;
-}
-
-.client-link:hover,
-.client-link:focus {
+.client__link:hover, .client__link:focus {
   border-color: var(--client-border-color-actived);
   color: var(--client-icon-color-actived);
+}
+
+.client__icon {
+  fill: currentColor;
 }
 
 .footer {

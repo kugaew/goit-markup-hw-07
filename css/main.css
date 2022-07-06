@@ -106,11 +106,11 @@ ul {
   text-align: center;
 }
 
-.page-header {
+.header {
   border-bottom: var(--header-border-bottom-color) solid 1px;
 }
 
-.page-header-container {
+.header__container {
   display: flex;
   align-items: center;
 }

@@ -24,7 +24,7 @@
     height: 30px;
 
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--modal-button-close-border-color);
     background-color: var(--btn-text-color);
     
     line-height: 0;
@@ -64,7 +64,7 @@
     display: block;
     margin-bottom: 4px;
 
-    color: #757575;
+    color: var(--modal-field-fill-title-color);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -79,7 +79,7 @@
     height: 40px;
     padding-left: 42px;
 
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid var(--modal-field-fill-input-border-color);
     border-radius: 4px;
     outline: none;
     
@@ -120,7 +120,7 @@
     padding-left: 16px;
     padding-right: 16px;
 
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid var(--modal-field-fill-textarea-border-color);
     border-radius: 4px;
     outline: none;
 
@@ -180,7 +180,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--modal-field-fill-checkbox-text-color);
 }
 
 .field-fill__checkbox-link {
@@ -215,10 +215,10 @@
 
     border: none;
     background-color: var(--modal-btn-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--modal-button-submit-box-shadow-color);
     border-radius: 4px;
 
-    color: #FFFFFF;
+    color: var(--modal-button-submit-color);
 
     font-family: 'Roboto';
     font-style: normal;

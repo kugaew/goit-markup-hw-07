@@ -14,13 +14,12 @@ ul {
 .container {
     width: 1200px;
     padding: 0 15px;
-    /* outline: solid 2px red; */
     margin: 0 auto;
 }
 
 .page {
     color: var(--main-text-color);
-    background-color: var(--maim-background-color);
+    background-color: var(--main-background-color);
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;

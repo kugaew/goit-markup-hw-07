@@ -7,7 +7,7 @@
     height: 600px;
     max-width: 1600px;
 
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero_background.jpg');
+    background-image: linear-gradient(to right, var(--hero-background-image-linear-gradient-color), var(--hero-background-image-linear-gradient-color)), url('../images/hero_background.jpg');
     background-color: var(--hero-background-color);
     background-repeat: no-repeat;
     background-position: center;

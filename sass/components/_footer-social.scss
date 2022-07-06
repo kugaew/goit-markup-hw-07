@@ -14,7 +14,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--footer-social-title-color);
 }
 
 .footer-social-list {
@@ -41,7 +41,7 @@
     align-items: center;
 
     background-color: var(--footer-social-icon-background-color-passed);
-    color: var(--footer-social-icon-colot);
+    color: var(--footer-social-icon-color);
 
     transition-property: background-color;
     transition-duration: var(--trans-duration);

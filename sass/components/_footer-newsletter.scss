@@ -9,7 +9,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--footer-newsletter-title-color);
 }
 
 .footer-newsletter-field {
@@ -31,10 +31,10 @@
     line-height: 20px;
     letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-newsletter-input-color);
 
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid var(--footer-newsletter-input-border-color);
+    filter: drop-shadow(0px 4px 4px var(--footer-newsletter-input-filter-drop-shadow-color));
     border-radius: 4px;
     background-color: var(--footer-background-color);
 }
@@ -54,7 +54,7 @@
     align-items: center;
     letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-newsletter-input-placeholder-color);
 }
 
 .footer-newsletter-btn {
@@ -74,7 +74,7 @@
 
     color: var(--btn-text-color);
     background-color: var(--footer-btn-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--footer-newsletter-btn-box-shadow-color);
     border-radius: 4px;
     border: none;
 

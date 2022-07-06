@@ -53,7 +53,7 @@
     line-height: 28px;
     letter-spacing: 0.03em;
 
-    color: var(--hero-btn-text-color);
+    color: var(--portfolio-thumb-text-color);
     background-image: linear-gradient(to right, rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
 
     transition-property: transform;
@@ -79,9 +79,9 @@
 }
 
 .portfolio-border {
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid var(--portfolio-card-bottom-part-border-color);
+    border-left: 1px solid var(--portfolio-card-bottom-part-border-color);
+    border-right: 1px solid var(--portfolio-card-bottom-part-border-color);
     padding-top: 20px;
     padding-left: 24px;
     padding-bottom: 20px;

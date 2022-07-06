@@ -38,7 +38,9 @@
     display: block;
 }
 
-
+.team__list {
+    justify-content: center;
+}
 
 .our-team-social-list__link {
     color: var(--team-social-icon-color-passed);

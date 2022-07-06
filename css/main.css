@@ -630,6 +630,10 @@ ul {
   display: block;
 }
 
+.team__list {
+  justify-content: center;
+}
+
 .our-team-social-list__link {
   color: var(--team-social-icon-color-passed);
   background-color: var(--team-cards-background-color);
@@ -745,6 +749,7 @@ ul {
 
 .footer-social-list {
   display: flex;
+  justify-content: center;
 }
 
 .footer-social-item {
@@ -968,7 +973,6 @@ ul {
 
 .social-list {
   display: flex;
-  justify-content: center;
 }
 
 .social-list__item {

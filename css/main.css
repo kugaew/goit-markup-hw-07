@@ -125,15 +125,15 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
+.logo--web {
   color: var(--action-color);
 }
 
-.header-logo {
+.header__logo {
   margin-right: 93px;
 }
 
-.footer-logo {
+.footer--logo {
   margin-bottom: 20px;
   color: var(--hero-title-color);
 }

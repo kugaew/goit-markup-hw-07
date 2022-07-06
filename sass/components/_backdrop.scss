@@ -1,8 +1,3 @@
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -15,4 +10,9 @@
     background-color: rgba(0, 0, 0, 0.2);
 
     @include animated(opacity);
+
+    &.is-hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
 }

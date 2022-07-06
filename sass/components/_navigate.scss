@@ -27,7 +27,7 @@
 
     color: var(--title-text-color);
 
-    @include animated(color);
+    @include animated();
 
     &:hover,
     &:focus {
